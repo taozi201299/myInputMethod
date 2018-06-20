@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/topTextColor"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setup_board_height"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/margin_20"
+        android:paddingTop="@dimen/margin_20"
+        >
+        <TextView
+            android:id="@+id/id_step_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="步骤一:"
+            android:textColor="@color/topTextColor"/>
+        <TextView
+            android:id="@+id/id_step_1_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:text="勾选我的输入法"
+            android:textColor="@color/black"
+            android:layout_below="@+id/id_step_1"/>
+        <Button
+            android:id="@+id/id_btn_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_10"
+            android:text="去勾选"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setup_board_height"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/padding_10"
+        android:paddingTop="@dimen/padding_20"
+        >
+        <TextView
+            android:id="@+id/id_step_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="步骤二:"
+            android:textColor="@color/topTextColor"/>
+        <TextView
+            android:id="@+id/id_step_2_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:text="切换到我的输入法"
+            android:textColor="@color/black"
+            android:layout_below="@+id/id_step_2"/>
+        <Button
+            android:id="@+id/id_btn_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_10"
+            android:text="去切换"/>
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/id_btn_finish"
+        android:layout_width="@dimen/setup_finish_btn_width"
+        android:layout_marginTop="@dimen/margin_20"
+        android:layout_height="wrap_content"
+        android:text="完成"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>

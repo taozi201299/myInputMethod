@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/symbol_keyboard_height">
+    <ListView
+        android:id="@+id/id_symbol_title"
+        android:layout_width="@dimen/symbol_left_title_width"
+        android:layout_height="@dimen/symbol_left_title_height"
+        android:layout_above="@+id/id_btn_bottom"
+        android:background="@color/backGround"
+        >
+    </ListView>
+    <LinearLayout
+        android:id="@+id/id_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/id_symbol_title"
+        android:background="@color/topTextColor"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <GridView
+        android:id="@+id/id_symbol_value"
+        android:layout_toRightOf="@+id/id_symbol_title"
+        android:layout_width="@dimen/symbol_grid_width"
+        android:layout_height="@dimen/symbol_grid_height"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/id_btn_bottom"
+        android:layout_below="@+id/id_line"
+        android:numColumns="4"
+        android:horizontalSpacing="@dimen/keyboard_grid_space"
+        android:verticalSpacing="@dimen/keyboard_grid_space"
+        android:background="@color/backGround"
+        ></GridView>
+    <LinearLayout
+        android:id="@+id/id_btn_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/symbol_board_bottom_height"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@color/backGround"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/id_symbol_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding_60"
+            android:paddingRight="@dimen/padding_35"
+            android:textSize="@dimen/text_size_14"
+            android:text="返回"/>
+        <ImageView
+            android:id="@+id/id_symbol_space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:paddingLeft="@dimen/padding_100"
+            android:paddingRight="@dimen/padding_35"
+            android:src="@mipmap/space"/>
+        <ImageView
+            android:id="@+id/id_symbol_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding_100"
+            android:paddingRight="@dimen/padding_35"
+            android:src="@mipmap/enter"/>
+        <ImageView
+            android:id="@+id/id_symbol_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding_100"
+            android:src="@mipmap/delete"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

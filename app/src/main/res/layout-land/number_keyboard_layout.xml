@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/keyboard_num_height"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        android:id="@+id/id_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/gray"
+        android:orientation="vertical">
+    </LinearLayout>
+    <GridView
+        android:id="@+id/id_number_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/keyboard_num_height"
+        android:layout_alignParentRight="true"
+        android:numColumns="4"
+        android:horizontalSpacing="@dimen/keyboard_grid_space"
+        android:verticalSpacing="@dimen/keyboard_grid_space"
+        android:background="@color/gray"
+        ></GridView>
+
+</LinearLayout>

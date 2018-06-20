@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:id="@+id/id_spell"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/spell_height"
+        android:textSize="@dimen/text_size_16"
+        android:background="@color/skyblue"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/topTextColor"
+        android:layout_below="@id/id_spell"
+        android:layout_marginTop="@dimen/margin_1"></LinearLayout>
+    <HorizontalScrollView
+        android:id="@+id/id_candidate_word"
+        android:layout_below="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/candidate_height"
+        android:scrollbars="none"
+        android:fillViewport="false"
+        ></HorizontalScrollView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="@dimen/candidate_widht"
+        android:layout_height="@dimen/candidate_height"
+        android:layout_toRightOf="@id/id_candidate_word"
+        android:layout_marginLeft="@dimen/candidate_img_margin"
+        android:layout_below="@+id/id_spell"
+        android:background="@mipmap/lianxiang_qiehuan"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/id_extend_candidate"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/candidate_img_height"
+            android:src="@mipmap/down_arrow"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BaseKey">
+        <attr name="top_title" format="string"/>
+        <attr name="key_title" format="string"/>
+        <attr name="key_img" format="reference"/>
+        <attr name="key_back_ground" format="reference"/>
+        <attr name="text_color" format="color"/>
+        <attr name="text_size" format="integer"/>
+        <attr name="key_code" format="integer"/>
+        <attr name= "key_press_back_ground" format="reference"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,115 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_size">16dp</dimen>
+    <dimen name="line_0.5">0.5dp</dimen>
+
+    // text size
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    // base key dimen
+    <dimen name="base_key_width">34dp</dimen>
+    <dimen name="base_key_height">48dp</dimen>
+
+    // extend candidate dimen
+    <dimen name="extend_candidate_height">250dp</dimen>
+
+    // candidate view dimen
+
+    <dimen name="line">1dp</dimen>
+    <dimen name="spell_height">20dp</dimen>
+    <dimen name="candidate_height">40dp</dimen>
+    <dimen name="candidate_widht">150dp</dimen>
+    <dimen name="candidate_img_margin">-100dp</dimen>
+    <dimen name="candidate_img_height">20dp</dimen>
+
+    // margins dimen
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="padding_1">1dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_30">30dp</dimen>
+    <dimen name="padding_35">35dp</dimen>
+    <dimen name="padding_60">60dp</dimen>
+    <dimen name="padding_100">100dp</dimen>
+
+    // key tip dimen
+    <dimen name="key_tip_width">50dp</dimen>
+    <dimen name="key_tip_height">60dp</dimen>
+
+    // input setting dimen
+    <dimen name="setting_height">60dp</dimen>
+
+    // keyboard view dimen
+    <dimen name="keyboard_view_height">250dp</dimen>
+    <dimen name="keyboard_view_title_height">39dp</dimen>
+    <dimen name="keyboard_title_height">40dp</dimen>
+    <dimen name="keyboard_title_item_width">40dp</dimen>
+    <dimen name="keyboard_title_item_height">30dp</dimen>
+    <dimen name="keyboard_backspace_width">50dp</dimen>
+    <dimen name="keyboard_row3_numkey_width">40dp</dimen>
+    <dimen name="keyboard_row3_lankey_width">36dp</dimen>
+    <dimen name="keyboard_row3_spacekey_width">108dp</dimen>
+    <dimen name="keyboard_row3_enterkey_width">88dp</dimen>
+    <dimen name="keyboard_function_zh_key_width">55dp</dimen>
+    <dimen name="keyboard_function_shift_key_width">40dp</dimen>
+    <dimen name="keyboard_row4_height">48dp</dimen>
+
+
+    // number board item dimen
+
+    <dimen name="keyboard_num_item_width">80dp</dimen>
+    <dimen name="keyboard_num_item_height">62dp</dimen>
+
+    // number board dimen
+    <dimen name="keyboard_num_height">250dp</dimen>
+    <dimen name="keyboard_grid_space">0.5dp</dimen>
+
+
+    // shouxie board dimen
+    <dimen name="shouxie_board_height">250dp</dimen>
+    <dimen name="shouxie_title_height">39dp</dimen>
+    <dimen name="shouxie_title_item_width">60dp</dimen>
+    <dimen name="shouxie_title_item_height">30dp</dimen>
+    <dimen name="shouxie_canvas_width">320dp</dimen>
+    <dimen name="shouxie_canvas_height">170dp</dimen>
+    <dimen name="shouxie_symbol_height">40dp</dimen>
+    <dimen name="shouxie_symbol_key_width">40dp</dimen>
+    <dimen name="shouxie_symbol_spacekey_width">230dp</dimen>
+    <dimen name="shouxie_functionkey_width">40dp</dimen>
+    <dimen name="shouxie_functionkey_total_height">170dp</dimen>
+    <dimen name="shouxie_functionkey_height">34dp</dimen>
+    <dimen name="shouxie_enterKey_width">140dp</dimen>
+
+    // set up board dimen
+    <dimen name="setup_board_height">100dp</dimen>
+    <dimen name="setup_finish_btn_width">300dp</dimen>
+
+    // symbol keyboard view  item dimen
+    <dimen name="symbol_grid_item_height">49.7dp</dimen>
+
+    // symbol keyboard dimen
+
+    <dimen name="symbol_keyboard_height">250dp</dimen>
+    <dimen name="symbol_left_title_width">60dp</dimen>
+    <dimen name="symbol_left_title_height">200dp</dimen>
+    <dimen name="symbol_grid_width">300dp</dimen>
+    <dimen name="symbol_grid_height">200dp</dimen>
+    <dimen name="symbol_board_bottom_height">50dp</dimen>
+    <dimen name="symbol_title_item_height">40dp</dimen>
+    <dimen name="symbol_title_item_width">50dp</dimen>
+</resources>
